@@ -9,3 +9,9 @@ git ls-tree -r --name-only Branchname (ls other branch)</br>
 git ls-tree -r --name-only Branchname | rg Searchname (ls other then pipe grep)</br>
 git checkout Branchname Filename (get filename from other branch to current branch)<br>
 git --no-page diff Branchname OtherBranchname -- filename/path
+
+git stash push -u -m "stash_meassage"
+git stash list
+git stash pop stash@{0}
+git stash apply stash@{0}
+git stash show stash@{0|
