@@ -8,10 +8,14 @@ git grep -l Searchname Branchname (finds file that contain searchname)</br>
 git ls-tree -r --name-only Branchname (ls other branch)</br>
 git ls-tree -r --name-only Branchname | rg Searchname (ls other then pipe grep)</br>
 git checkout Branchname Filename (get filename from other branch to current branch)<br>
-git --no-page diff Branchname OtherBranchname -- filename/path
+git --no-page diff Branchname OtherBranchname -- filename/path</br>
 
-git stash push -u -m "stash_meassage"
-git stash list
-git stash pop stash@{0}
-git stash apply stash@{0}
-git stash show stash@{0|
+git stash push -u -m "stash_message"</br>
+git stash list</br>
+git stash pop stash@{0}</br>
+git stash apply stash@{0}</br>
+git stash show stash@{0|</br>
+
+git log -1</br>
+git log --merges --after="2026-04-01" --before="2026-04-30"</br>
+git log --merges --oneline --graph --after="2026-04-01" --before="2026-04-30"</br></br>
