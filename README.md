@@ -42,4 +42,8 @@ git log --merges --oneline --graph --after="2026-04-01" --before="2026-04-30"</b
     layout = "LOCAL,MERGED,REMOTE /MERGE</br>
   <img width="1680" height="3124" alt="image" src="https://github.com/user-attachments/assets/d492215d-4dba-45b4-abac-3a95a852686d" />
 
+## Git Rebase & Git Squash
+<img width="1039" height="875" alt="image" src="https://github.com/user-attachments/assets/008b53c1-9fc9-4100-8d56-56a089a9f812" />
+
+
     
