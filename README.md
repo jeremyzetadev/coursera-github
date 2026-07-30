@@ -20,6 +20,9 @@ git log -1</br>
 git log --merges --after="2026-04-01" --before="2026-04-30"</br>
 git log --merges --oneline --graph --after="2026-04-01" --before="2026-04-30"</br></br>
 
+## Japanese Output
+git config --global diff.sjis.textconv "iconv -f cp932 -t utf-8"
+
 ## Git Merge
 
 ※※DIFFTOOL/MERGETOOL @.gitconfig※※<br>
